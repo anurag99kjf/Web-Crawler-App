@@ -1,0 +1,46 @@
+.bck-img{
+    height: 100vh;
+    max-height: 100vh;
+    background-image:url("img.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    overflow-y: scroll;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+    padding: 6px;
+  }
+  
+  .search-input {
+    flex: 1;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    background-color: transparent;
+    outline: none;
+  }
+  
+  .search-button {
+    background-color: #4285f4;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  /* styling for the links coming to the front page */
+  li{
+    color: green;
+    font-size: medium;
+    font-weight: 600;
+  }
+  
+  /* Optional: Add font and icon library */
+  @import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css");
+  
